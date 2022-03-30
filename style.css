@@ -382,6 +382,7 @@ body {
 }
 
 @media screen and (max-width: 1024px){
+    /* adaptiv block-1 */
     .container {
         padding-left: 32px;
         padding-right: 32px;
@@ -397,10 +398,58 @@ body {
         padding-top: 120px;
         background-position: right bottom;
     }
+
+  /* adaptiv block-2 */
+
+  .info__data {
+    flex-direction: column;
+    align-items: center;
+    
 }
 
+.info__personal {
+    margin-bottom: 32px;
+}
+
+/* adaptiv block-4 */
+
+.footer__links {
+    margin-top: 64px;
+}
+
+.footer__link {
+    flex-direction: column;
+}
+
+.footer {
+    padding: 47px 124px 64px;
+}
+
+.footer__bottom {
+    padding: 3px 10px; 
+}
+
+.footer__list {
+    margin-bottom: 25px;
+    margin-right: 0;
+}
+
+.footer__list:last-of-type {
+    margin-bottom: 0;
+}
+
+.paragraf-wight {
+    width: 336px;
+}
+
+.hr {
+    width: 100%;
+}
+
+}
 
 @media screen and (max-width: 667px){
+      /* adaptiv block-1 */
     .heading {
         width: 100%;
         font-size: 32px; 
@@ -440,4 +489,103 @@ body {
     .header {
         min-height: 376px;
     }
+
+
+  /* adaptiv block-2 */
+
+    .heading3 {
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .info {
+        padding-top: 48px;
+        margin-top: 0;
+    }
+
+    .info__data {
+        padding-top: 32px; 
+    }
+   
+    .info__personal {
+       width: 100%;
+    }
+
+    
+
+    
+    
+/* adaptiv block-3 */
+
+.heading3 {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+    .project__text {
+        font-size: 16px;
+        line-height: 19px;
+        top: 16px;
+    }
+
+    .project__text_1 {
+        right: 16px;
+    }
+    
+    .project__text_2 {
+        font-size: 16px;
+        line-height: 19px;
+        top: 16px;
+        left: 16px;
+    }
+
+    .project__parent {
+        flex-direction: column;
+        margin-top: 16px;
+    }
+
+    .project__item_margin {
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+
+    .paragraf_project {
+        margin-bottom: 82px;
+    }
+
+    /* adaptiv block-4 */
+
+    .paragraf__copy {
+        text-align: center;
+    }
+
+    .footer {
+        padding: 18px 16px 32px;
+    }
+
+    .footer__link {
+        justify-content: flex-start;
+    }
+
+    .footer__contents {
+        flex-direction: column;
+        padding: 18px 16px 32px;
+    }
+
+    .footer__bottom {
+        margin-top: 40px;
+    }
+
+    .paragraf-wight {
+       width: 100%;
+       text-align: center; 
+     }
+
+    .heading3-wight {
+        width: 100%;
+        text-align: center;
+     }
+
+   
 }
